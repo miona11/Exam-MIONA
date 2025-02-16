@@ -1,0 +1,111 @@
+body{
+  font-style: oblique;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content:flex-start;
+ 
+  background-color: rgba(97, 94, 94, 0.445);
+}
+.bell{
+  justify-content: end;
+}
+
+.hero{
+   
+    height: 40vh;
+    position: relative;
+
+}
+
+
+.absolute {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: rgb(255, 251, 251);
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 3rem;
+  text-shadow: 7px 7px 7px rgb(30, 29, 29);
+  font-family: "Dancing Script", serif;
+}
+
+#icon{
+  color: black;
+}
+
+
+
+
+.hero{
+  height: 5vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-style: oblique;
+  padding: 15px;
+  margin-top: 80px;
+
+
+  img{
+    background-size: cover; 
+    background-position: center;
+
+    height: 300px;
+    width: 100%;
+  }
+}
+
+
+.container{
+  margin-top: 20px;
+}
+
+.fixed{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.39);
+  color: white;
+  padding: 11px;
+  text-align: center;
+  gap: 1rem;
+  
+
+
+  a{
+    text-decoration: none;
+   
+    color: white;
+    padding: 4px;
+    
+  }
+ 
+}
+
+.like-btn{
+  padding: 7px;
+  
+}
+
+.delete-btn{
+  padding: 7px;
+  
+}
+
+.like-value{
+  border: 1px solid rgba(0, 0, 0, 0.51);
+  margin-right: 25px;
+
+
+}
+
